@@ -1,4 +1,4 @@
-## Code book for Getting and Cleaning peer assessment Project
+##Getting and Cleaning Data peer Assessment Project Code Book
 ==================================================================
 
 ###About the experiment and Data
