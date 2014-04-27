@@ -10,4 +10,4 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ###Data Transformation approach
 
-First the training information was loaded into memory. Then extracted only the measurements on the mean and standard deviation for each measurement by adding the features name and selcting the specific columns. After reducing the data table Activity column from training_y.txt was added to the data set followed by Subject column.
+First the training information was loaded into memory. Then extracted only the measurements on the mean and standard deviation for each measurement by adding the features name and selecting the specific columns. After reducing the data table Activity column from training_y.txt was added to the data set followed by Subject column. The same process was conducted for test data. After loading and merging both test and training data, the two data set was merged by rows. In the next step all activities names and description was added to each rows. In the last step,an independent tidy data set with the average of each variable for each activity and each subject was generated.
